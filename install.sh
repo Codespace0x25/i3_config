@@ -1,4 +1,4 @@
-/bin/bash
+#!/bin/bash
 
 pacman -S git kitty wget i3wm
 
@@ -12,9 +12,8 @@ yay
 
 yas | yay -S rofi polybar picom-git dunst feh
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
-cd ~/
 mkdir -p ~/.config/i3
-cd ~/i3_config
+cd ~/.gitRep/i3_config
 cp ./config ~/.config/i3
 mkdir -p ~/.config/kitty
 cp ./kitty.conf ~/.config/kitty
