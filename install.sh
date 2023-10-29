@@ -16,8 +16,13 @@ cd ~/
 mkdir -p ~/.config/i3
 cd ~/i3_config
 cp ./config ~/.config/i3
-
-cd ~/
- 
+mkdir -p ~/.config/kitty
+cp ./kitty.conf ~/.config/kitty
+mkdir ~/.config/dunst
+cp ./dunstrc ~/.config/dunst
+mkdir -p ~/.config/picom
+cp ./picom.conf ~/.config/picom
+mkdir -p ~/.config/polybar 
+cp ./config.ini ~/.config/polybar
 
 echo "press the windos+shift+r to load the changis"
