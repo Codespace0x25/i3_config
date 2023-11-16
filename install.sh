@@ -23,5 +23,7 @@ mkdir -p ~/.config/picom
 cp ./picom.conf ~/.config/picom
 mkdir -p ~/.config/polybar 
 cp ./config.ini ~/.config/polybar
+mkdir -p ~/Photos/wall
+cp ./Trans.png ~/Photos/wall
 
 echo "press the windos+shift+r to load the changis"
